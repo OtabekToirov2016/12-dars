@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+
+.contener{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+
+
+.g{
+    background-color: antiquewhite;
+    padding: 30px;
+    border-radius: 20px ;
+   
+}
+
+
+.forom{
+    display: flex;
+    flex-direction: column;
+    gap: 5px ;
+    margin-top: 10px;
+     align-items: center;
+}
+
+.forom input{
+  padding: 10px  20px;
+  width: 400px;
+border-radius: 10px;
+border: none;
+outline: none;
+}
+
+.forom button{
+  padding: 10px  20px;
+  width: 400px;
+border-radius: 10px;
+border: none;
+outline: none;
+cursor: pointer;
+background-color: chartreuse;
+color: white;
+}
+
+.forom input:focus{
+    border: 2px solid blue;
+}
+
+.forom input:valid{
+    border: 2px solid rgb(246, 8, 210);
+}
+
+
+.forom input :invalid{
+    border: 2px solid rgb(255, 0, 0);
+}
+
+.card{
+    width: 300px;
+    background-color: aqua;
+    
+}
+.card img{
+    width: 100%;
+    display: flex;
+}
+.cards{
+    margin-top: 100px;
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.card{
+    flex-grow: 1;
+}
+
+.card:nth-child(even){
+    background-color: gold;
+}
+
+.d{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:30px ;
+}
+

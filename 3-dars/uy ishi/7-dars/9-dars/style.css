@@ -1,0 +1,41 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.contener{
+    width: 1126px;
+    margin: 0 auto;
+}
+
+
+.card{
+    width: 300px;
+    background-color: aqua;
+    color:#fff;
+    border-radius: 12px;
+    box-shadow: 5px 5px 10px red;
+}
+
+.cards{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+
+.card3{
+    flex-grow: 1;
+     width: 300px;
+    background-color: aqua;
+    color:#fff;
+    border-radius: 12px;
+    box-shadow: 5px 5px 10px red;
+    display: block;
+}
+
+.div{
+    display: block;
+}

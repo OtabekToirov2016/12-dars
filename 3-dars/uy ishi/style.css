@@ -1,0 +1,187 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.contener{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+
+
+
+
+
+
+
+
+
+.links{
+    display: flex;
+    list-style-type: none;               
+    gap: 55px;
+ position: sticky;
+
+ top: 0;
+ z-index: 1;
+}
+
+
+ #salom{
+background-image: url(./imigis/top-view-delicious-pasta-table\ 1\ \(1\).svg);
+align-items: center;
+   height: 642px; 
+
+   margin: 50px 50px;
+ }
+
+.buy-nav{
+    color: #fff;
+    background-color: hotpink
+    
+    
+    ;
+    border: none;
+    padding: 20px   21px;
+
+    border-radius: 10px;
+    display: flex;
+}
+
+
+.buy-nava{
+    border-radius: 12px;
+     color: #fff;
+    background-color: rgb(95, 17, 229)
+    
+    
+    ;
+    border: none;
+    padding: 20px   21px;
+
+    border-radius: 10px;
+    display: flex;
+}
+
+
+
+
+.linke{
+    color: #00D3FD;
+}
+
+
+.shorva{
+    top: 0;
+    display: flex;
+}
+
+.title-1:hover{
+    transform: scaleX(221px);
+}
+
+
+.title-2:active{
+    transform: scaleX(221px);
+}
+
+.title-3:active{
+    transform: scaleX(221px);
+}
+
+.title-4{
+    transform: scaleX(221px);
+}
+
+.title-5:active{
+    transform: scaleX(221px);
+}
+                                           
+
+
+
+
+
+
+
+
+
+
+
+.df{
+    display: flex;
+}
+
+.di{
+    display: flex;
+}
+
+layk-btn{
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    border-radius: 50%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

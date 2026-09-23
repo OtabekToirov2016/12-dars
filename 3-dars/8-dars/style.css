@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.contener{
+    margin: 0 auto;
+    
+}
+
+
+.img{
+    border-radius: 55%;
+    background-color: blue;
+    width: 700px;
+}
+
+.h1{
+    display: block;
+    margin: 0 auto;
+    color: rgb(244, 78, 111);
+
+}
+
+.div{
+    background-color: rgb(237, 94, 242);
+}

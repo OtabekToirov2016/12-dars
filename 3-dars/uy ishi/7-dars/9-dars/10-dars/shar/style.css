@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.contener{
+    width: 1210px;
+    margin: 0 auto;
+}
+
+.q{
+    width: 200px;
+    height: 200px;
+}
+
+.q:hover{
+    box-shadow: 10px 10px 10px gold;
+transform: scaleX(1.1);
+transform: scaleY(1.1);
+}

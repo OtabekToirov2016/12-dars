@@ -1,0 +1,105 @@
+*{
+    margin: 0 auto;
+    padding:  0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.contener{
+    width: 1210px;
+    margin: 0 auto;
+}
+
+
+.wraper{
+    display: flex;
+}
+
+.links{
+    display: flex;
+    gap: 40px;
+    list-style-type: none;
+   
+}
+
+.link{
+     text-decoration: none;
+}
+.card{
+
+    background-color:#FAA935 ;
+    border-radius: 50px;
+    width: 120px;
+    height: 42px;
+}
+
+.cards{
+    gap: 381px;
+}
+
+
+
+
+
+.info{
+      background-image: url(./imaggs/all\ tours.svg);
+     width: 1441px;
+     height: 400px;
+}
+
+
+.salom{
+    display: flex;
+    width: 170px;
+    justify-content: baseline;
+}
+
+.hard{
+    display: flex;
+}
+
+
+.header{
+    justify-content: center;
+    margin: 0 auto;
+ 
+}
+.qadr{
+       background-image: url(./imaggs/Rectangle\ 22.svg);
+       width: 545px;
+       height: 521px;
+       display: flex;
+}
+
+
+.q{
+    display: flex;
+       background-image: url(./imaggs/Rectangle\ 22\ \(1\).svg);
+       width: 545px;
+       height: 521px;
+}
+
+.l{
+    display: flex;
+}
+
+
+.k{
+    display: flex;
+   
+}
+
+.r{
+     gap: 415px;
+      background-image: url(./imaggs/wuxi.svg)
+}
+
+.c{
+      background-image: url(./imaggs/big\ ben.png);
+      width: 545px;
+      height: 521px;
+}
+
+.a{
+     background-image: url(./imaggs/paris\ \(1\).png);
+}

@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+
+
+.contener{
+    width: 1210px;
+    margin: 0 auto;
+}
+
+.top{
+    background-color: gold;
+   width: 100px;
+   height: 100px;
+   border-radius: 50%; 
+
+   animation:  sakra   1s linear infinite;
+}
+
+#hero{
+    margin-top: 500px;
+    display: flex;
+}
+
+@keyframes sakra{
+    0%{
+      transform: translate(0);
+    }
+
+    20%{
+      transform: translateY(-120px);
+    }
+
+    50%{
+      transform: translateY(-150px);
+    }
+    100%{
+      transform: translate(0);
+    
+    }
+}
+
+.loding{
+    background-color: black;
+    width: 300px;
+    height: 300px;
+    border-radius: 150px;
+    border: 20px solid transparent;
+    border-bottom: 20px solid gold;
+    animation: aylanish  2s linear  infinite;
+}
+
+@keyframes aylanish {
+0%{
+    transform: rotate(0);
+}
+100%{
+    transform: rotate(360deg)
+}
+}
+
+
+
+
+/* From Uiverse.io by vamsidevendrakumar */ 
+.card {
+  width: 300px;
+  height: 200px;
+  perspective: 1000px;
+}
+
+.card-inner {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  transform-style: preserve-3d;
+  transition: transform 0.999s;
+}
+
+.card:hover .card-inner {
+  transform: rotateY(180deg);
+}
+
+.card-front,
+.card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+.card-front img{
+    width: 100%;
+
+}
+
+.card-front {
+  background-color: #6A2C70;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  border: 10px solid #6A2C70;
+  border-radius: 10px;
+  justify-content: center;
+  font-size: 24px;
+  transform: rotateY(0deg);
+}
+
+.card-back {
+  background-color: #F08A5D;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  border: 10px solid #F08A5D;
+  border-radius: 10px;
+  justify-content: center;
+  font-size: 24px;
+  transform: rotateY(180deg);
+}
+
+
+
+
+
+

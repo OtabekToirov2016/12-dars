@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+
+
+
+.contener{
+    width: 1210px;
+    margin: 0 auto;
+}
+
+
+
+ul{
+    gap: 50px;
+    display: flex;
+}
+
+
+
+.wraper{
+ margin-top: 55px;
+    display: flex;
+    justify-content: space-between;
+} 
+
+.wraper button{
+    width: 220px;
+    height: 70px;
+    border-radius: 5px
+    ;
+    color:#263238;
+}
+
+.ali h1{
+font-size:50px;
+width: 368px;
+}
+
+.ali{
+    margin-top: 90px;
+}
+
+.ali p{
+    font-size: 20px;
+    width: 368px;
+}
+
+.ali button{
+    width: 438px;
+    height: 118px;
+    background-color: #263238;
+    font-size: 54px;
+    color: #fff;
+    border-radius: 15px;
+}
+
+.ali{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.li{
+    margin-top: 15px;
+}
+
+.a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.w button{
+    border-color: #263238;
+    border-radius: 5px;
+ width: 196px;
+ height: 55px;
+}
+
+.w{
+    width: 300px;
+}

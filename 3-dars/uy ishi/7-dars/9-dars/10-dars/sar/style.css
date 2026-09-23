@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+
+.contener{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+
+
+.t:hover{
+    transform: scale(1.1);
+    width: 300px;
+    height: 300px;
+    box-shadow: 0px 10px 10px ;
+}
+
+.t   м,

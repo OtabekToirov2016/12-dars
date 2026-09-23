@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+
+}
+
+
+
+.contener{
+    width: 1210px;
+    margin: 0 auto;
+}
+
+
+.e{
+    display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.e button :hover{
+
+    width: 40px;
+    height: 40px;
+    animation: backwards;
+}

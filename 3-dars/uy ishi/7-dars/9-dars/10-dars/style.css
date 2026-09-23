@@ -1,0 +1,68 @@
+*{
+    margin: 0 auto;
+    padding:  0 auto;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.contener{
+    width: 1210px;
+margin: 0 auto; 
+
+
+}
+
+.himatlar{
+    display: flex;
+    
+     background-color: aqua;
+       width: 300px;
+       background: linear-gradient(to right ,rgba(255, 0, 0, 0.801),  rgb(0, 21, 255),);
+      
+     filter: brightness(100%);
+}
+
+.dard{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.imgg:hover{
+
+    transition: 0.4s;
+  
+}
+
+.card{
+    
+    background-color: aqua;
+       width: 300px;
+       background: linear-gradient(to right ,rgba(255, 0, 0, 0.801),  rgb(0, 21, 255),);
+
+   
+}
+#header{
+    top: 100px;
+}
+.imgg{
+      width: 100%;
+}
+
+
+.card h1{
+     background: linear-gradient(rgba(247, 247, 8, 0.801), rgb(235, 4, 224));
+    -webkit-background-clip: text; 
+    color: transparent;
+
+}
+
+.card p{
+    background: linear-gradient(rgba(247, 44, 8, 0.801), rgb(208, 235, 4));
+    display: inline-block;
+    color: transparent;
+    -webkit-background-clip: text;
+}
+
+
+
